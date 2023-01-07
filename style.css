@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    padding: 0 8%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image:linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)), url(/Bg\ img.png);
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    left: -100px;
+}
+.header h1{
+    position: relative;
+    left: -430px;
+    color: white;
+}
+.nav-links{
+    padding: 28px 0;
+}
+.nav-links li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 0;
+    position: relative;
+}
+.nav-links li a::after{
+    content: '';
+    background: #ff3c00dd;
+    width: 0%;
+    height: 3px;
+    display: block;
+    margin: auto;
+    transition: width 0.5s;
+}
+.nav-links li a:hover::after{
+    width: 100%;
+}
+.content{
+    position:relative;
+    left:650px;
+    top:200px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.content p{
+    position: relative;
+    left: -600px ;
+    top: 20px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 10px 10px;
+    border: 1px solid white;
+    
+}
+.content h1{
+    
+    font-weight: 550;
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.biodiversity h1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding:70px;
+    font-size: 36px;
+    font-weight:600 ;
+    color: white;
+    text-shadow: -1px 1px 5px black;
+}
+.container{
+    text-align: left;
+    padding: auto;
+    padding: none;
+    margin: none;
+    
+    position: relative;
+    
+}
+.whatisbio{
+    margin: 23px 18px;
+    padding:23px 12px;
+    border: 1px solid black;
+    background-color: white;
+    box-shadow: -0px 3px 12px black;
+    
+}
+.whatisbio h3{
+    margin-bottom: 10px;
+}
+.genetic{
+    margin: 50px;
+}
+.genetic h3{
+    margin-bottom: 10px;
+}
+.species{
+    margin: 50px;
+}
+.species h3{
+    margin-bottom: 10px;
+}
+.ecosystem{
+    margin: 50px;
+}
+.ecosystem h3{
+    margin-bottom: 10px;
+}
+.imgcontainer{
+    display: flex;
+}
+
+.imggenetic img{
+    height: 400px;
+    width: 400px;
+    margin: 40px;
+    border:1px solid #fff;
+    box-shadow: 1px 5px 20px black;
+}
+.imgspecies img{
+    position: relative;
+    bottom: -40px;
+    height:400px;
+    width: 400px;
+    border:1px solid black;
+    box-shadow: 1px 5px 20px black;
+}
+.imgecosystem img{
+    height: 400px;
+    width: 400px;
+    margin: 40px;
+    border:1px solid black;
+    box-shadow: 1px 5px 20px black;
+}
+.container2{
+    text-align: left;
+    padding: auto;
+    padding: none;
+    margin: none;   
+    position: relative;
+}
+.whatarethreats{
+    margin: 23px 18px;
+    padding:23px 12px;
+    border: 1px solid black;
+    background-color: white;
+    box-shadow: -0px 3px 12px black;
+}
+.whatarethreats h3{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.forcorrection h3{
+    margin-bottom: 10px;
+}
+.Habitatlossanddestruction{
+    margin: 50px;
+}
+.Alterations{
+    margin: 50px;
+}
+.exotic{
+    margin: 50px;
+}
+.over-exploitation{
+    margin: 50px;
+}
+.pollution{
+    margin: 50px;
+}
+.Global{
+    margin: 50px;
+}
+.forcorrection2{
+    display: flex;
+}
+.imgofcontainer1 img{
+    position: relative;
+    left: 70px;
+    height:400px ;
+    width: 600px;
+    border:1px solid none;
+    box-shadow: 1px 5px 20px black;
+}
+.imgofcontainer2 img{
+    position: relative;
+    left: 130px;
+    height: 400px;
+    width: 600px;
+    border:1px solid none;
+    box-shadow: 1px 5px 20px black;
+}
+.container3{
+    text-align: left;
+    padding: auto;
+    padding: none;
+    margin: none;   
+    position: relative;
+}
+.Whyprothabitat{
+    margin: 23px 18px;
+    padding:23px 12px;
+    border: 1px solid black;
+    background-color: white;
+    box-shadow: -0px 3px 12px black;
+}
+.Whyprothabitat h3{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.forcorrection3 h4{
+    margin-bottom: 10px;
+}
+.make{
+    margin: 50px;
+    border: 1px solid black;
+    padding: 15px 20px;
+}
+.clean{
+    margin: 50px;
+    border: 1px solid black;
+    padding: 15px 20px;
+}
+.plant{
+    margin: 50px;
+    border: 1px solid black;
+    padding: 15px 20px;
+}
+.herbicides{
+    margin: 50px;
+    border: 1px solid black;
+    padding: 15px 20px;
+}
+.glass{
+    margin: 50px;
+    border: 1px solid black;
+    padding: 15px 20px;
+}
+.switch{
+    margin: 50px;
+    border: 1px solid black;
+    padding: 15px 20px;
+}
+.slow{
+    margin: 50px;
+    border: 1px solid black;
+    padding: 15px 20px;
+}
+.Travel{
+    margin: 50px;
+    border: 1px solid black;
+    padding: 15px 20px;
+}
+.recycle{
+    margin: 50px;
+    border: 1px solid black;
+    padding: 15px 20px;
+}
+.Product{
+    margin: 50px;
+    border: 1px solid black;
+    padding: 15px 20px;
+}
+.minimize{
+    margin: 50px;
+    border: 1px solid black;
+    padding: 15px 20px;
+}
+.wildlife{
+    margin: 50px;
+    border: 1px solid black;
+    padding: 15px 20px;
+}
+.zoos{
+    margin: 50px;
+    border: 1px solid black;
+    padding: 15px 20px;
+}
+.learn{
+    margin: 50px;
+    border: 1px solid black;
+    padding: 15px 20px;
+}
+.donate{
+    margin: 50px;
+    border: 1px solid black;
+    padding: 15px 20px;
+}
+.bans{
+    margin: 50px;
+    border: 1px solid black;
+    padding: 15px 20px;
+}
+.share{
+    margin: 50px;
+    border: 1px solid black;
+    padding: 15px 20px;
+}
+.spread{
+    margin: 50px;
+    border: 1px solid black;
+    padding: 15px 20px;
+}
